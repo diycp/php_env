@@ -1,0 +1,35 @@
+localhost:80
+gzip
+log ./server/caddy/access.log
+
+root ./www/
+fastcgi / 127.0.0.1:9000 php
+
+rewrite {
+    to {path} {path}/ /index.php?{query}
+}
+
+
+# php-cgi.exe -b 127.0.0.1:9000 -c php.ini
+
+# https://github.com/caddyserver/examples
+
+#laravel
+#example.com {
+#    root ./public
+#    fastcgi / 127.0.0.1:9000 php
+#    rewrite {
+#        to {path} {path}/ /index.php?{query}
+#   }
+#}
+
+
+#WordPress
+#localhost:8080
+#root <directory where your WP site PHP files are>
+#gzip
+#fastcgi / 127.0.0.1:9000 php
+#rewrite {
+#	if {path} not_match ^\/wp-admin
+#	to {path} {path}/ /index.php?{query}
+#}
