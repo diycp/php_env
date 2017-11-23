@@ -2,7 +2,12 @@
 
   业余用c#写得php集成环境
 
-  nginx.conf 要自己配置路径
+  ## nginx.conf 要自己配置路径
+  
+  *\server\nginx\conf\nginx.conf
+ 
+  root   "F:\1\www";
+  
   
 
 [下载地址](https://share.weiyun.com/ffc3be37439c36681d097bc9ebf08e7e) 
