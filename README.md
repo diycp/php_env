@@ -9,6 +9,7 @@
   root   "F:\1\www";
   
   
+php5.3 php5.4 php5.6
 
 [下载地址](https://share.weiyun.com/ffc3be37439c36681d097bc9ebf08e7e) 
 
