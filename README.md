@@ -4,11 +4,10 @@
 
   ## nginx.conf 要自己配置路径
   
-  '''
   *\server\nginx\conf\nginx.conf
  
   root   "F:\1\www";
-  '''
+
   
 ## php5.3 、php5.4 、php5.6
 
