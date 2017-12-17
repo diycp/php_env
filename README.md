@@ -2,6 +2,8 @@
 
   业余用c#写得php集成环境
 
+  内置 phalcon yaf框架
+
   ## nginx.conf 要自己配置路径
   
   *\server\nginx\conf\nginx.conf
